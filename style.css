@@ -79,7 +79,7 @@ background-color:  white;
 
 .header_nav a:hover {
     opacity: 0.7;
-    transition: 0.2s all;
+    transition: .2s;
 }
 
 .header_nav li {
@@ -92,4 +92,57 @@ background-color:  white;
 
 a {
     text-decoration: none;
+}
+
+/* header_addition*/
+
+.header_addition {
+    text-align: center;
+    color: white;
+    margin-top: 133px;
+}
+
+.slogan {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+}
+
+.header_addition p {
+    font-size: 18px;
+    margin-top: 21px;
+    line-height: 140%;
+}
+
+.header_addition button {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 148px;
+    height: 46px;
+    margin-top: 10px;
+    background-color: #00afdb;
+    border: none;
+}
+
+.header_addition button:hover {
+    background-color: #009cc2;
+    transition: .2;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin: 183px auto 0;
+    padding: 0;
+}
+
+.socials li {
+    margin: 0 15px;
+}
+
+.socials a:hover {
+    opacity: .7;
+    transition: .2s;
 }
