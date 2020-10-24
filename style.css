@@ -39,6 +39,17 @@ h2 {
     background-image: url(assets/bg-image.jpg);
 }
 
+.rapp, .implement{
+    background-color: white;
+    height: 842px;
+}
+
+.community {
+background-color: white;
+height: 504px;
+overflow: hidden;
+}
+
 /* header */
 
 .header_nav {
@@ -119,7 +130,7 @@ a {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    width: 148px;
+    width: 184px;
     height: 46px;
     margin-top: 10px;
     background-color: #00afdb;
@@ -146,3 +157,45 @@ a {
     opacity: .7;
     transition: .2s;
 }
+
+/*rapp*/
+
+.rapp {
+    background: url('assets/content-image-1.jpg') no-repeat 924px 120px;
+    overflow: hidden;
+}
+
+.rapp h2 {
+    color: black;
+}
+
+.rapp .block {
+    margin-top: 294px;
+    margin-left: 269px;
+}
+
+.rapp p {
+    color: black;
+    margin-top: 22px;
+    line-height: 140%;
+    width: 410px;
+}
+
+.rapp button {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 184px;
+    height: 46px;
+    margin-top: 18px;
+    background-color: #00afdb;
+    border: none;
+}
+
+.rapp button:hover {
+    transition: .2s;
+    background-color: #009cc2;
+}
+
+/* community */
+
